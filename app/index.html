@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Heroku</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"/>
+
+</head>
+<body>
+    <header>
+    <div class="header">
+    <h1 class="header-title" id="header-title">Redirect To Heroku</h1>
+    </div>
+    </header>
+
+    <div class="content">
+    <div class="placeholder" id="link-box">
+        <h2 class="placeholder-topic" id="enter-link">Enter Link</h2>
+        <input class="placeholder-box" type="url" id="link" placeholder="Your Forked Repo Link" required><br>
+        <button class="placeholder-btn" id="herokubtn" onclick="genHeroku()">Genarate Link</button>
+        <button class="code-btn" id="codebtn" onclick="genCode()">Genarate Code</button> 
+    </div>
+    
+    <div class="text-boxes">
+        <div class="text-box JSBox">
+        <div class="topic">
+            <h2>ReadMe Code:</h2>
+        </div>
+        <textarea id="JSBox" readonly >
+        </textarea>
+        <button id="JSButton">Copy Codes</button>
+        </div>
+    </div>
+
+    <div class="middle">
+        <a class="btn" href="https://www.facebook.com/kalana.kithmina.735/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="btn" href="https://twitter.com/ktintwt">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="btn" href="https://github.com/kalanakt">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="btn" href="https://www.instagram.com/kalanakt_/">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="btn" href="https://t.me/TMWAD">
+          <i class="fab fa-telegram"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <script src='app.js'></script>
+</body>
+</html>
