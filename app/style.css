@@ -91,7 +91,6 @@ button:hover{
     border: 1px solid #265df2;
     border-radius: 3px;
     background: #e7edfe;
-    margin-bottom: -10px;
 }
 
 .header{
@@ -174,16 +173,14 @@ left: -10%;
 }
 }
 
-/* #herokubtn {
+.onebtn {
     display:inline-block;
-}  */
-
-#codebtn {
-    margin-left: 200px;
-    margin-bottom: -20px;
-    margin-top: -49.5px;
 }
 
-#JSButton {
-    margin-top: 10px;
+#pre-btn {
+    white-space: nowrap;
+}
+
+.one-btn {
+    display: inline-block;
 }
