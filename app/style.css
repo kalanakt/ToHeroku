@@ -28,9 +28,7 @@ body {
 
 }
 
-.github {
-  width: 200px;
-}
+
 .all-content{
   height: 100%;
   width: 90%;
@@ -162,4 +160,8 @@ background: linear-gradient(to bottom, var(--accent-color), var(--gradient-color
   text-align: center;
   margin-top: 40px;
   margin-right: 50px;
+}
+
+.github {
+  width: 200px;
 }
