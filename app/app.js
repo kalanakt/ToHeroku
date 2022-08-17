@@ -1,5 +1,4 @@
 const inputLink = document.getElementById("link")
-const outputLink = document.getElementById("heroku-link")
 const boxLink = document.getElementById("JSBox")
 
 const regex = /https?:\/\/github\.com\/(?:[^\/\s]+\/)+/
